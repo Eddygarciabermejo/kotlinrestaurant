@@ -1,4 +1,6 @@
 
+package com.example.api
+import RestaurantApi
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
