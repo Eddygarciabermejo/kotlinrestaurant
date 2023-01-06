@@ -1,6 +1,11 @@
 data class Restaurant(
-    val id: Int,
     val name: String,
-    val address: String,
-    val imageUrl: String
+    val photo: String,
+    val rating: Float,
+    val location: Location
+)
+
+data class Location(
+    val lat: Double,
+    val lng: Double
 )
